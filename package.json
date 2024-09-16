@@ -1,0 +1,21 @@
+{
+  "name": "azuretoapic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:prod": "set NODE_ENV=prod;node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/arm-apimanagement": "^9.1.0",
+    "@azure/identity": "^4.4.1",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "yargs": "^17.7.2"
+  }
+}
